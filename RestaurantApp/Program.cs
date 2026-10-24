@@ -19,7 +19,7 @@ namespace RestaurantApp
         public string Name { get; set; }
         public string Type { get; set; }
         public double Rate { get; set; }
-        public Restaurant (int id,string name,string type,double rate)
+        public Restaurant(int id, string name, string type, double rate)
         {
             Id = id;
             Name = name;
@@ -41,4 +41,7 @@ namespace RestaurantApp
                 Console.ReadKey();
             }
         }
+
+
+    }
 }
